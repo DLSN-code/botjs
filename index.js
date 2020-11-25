@@ -7,6 +7,7 @@ let prefix = config.prefix;
 
   client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
+  client.user.setActivity(`twitch.tv/dlsn_inccc`, {type: "WATCHING"})
 });
 
 
